@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Poppins:ital,wght@0,100;0,200;0,500;0,700;0,800;1,100&display=swap');
+
+*{
+    font-family: "Poppins";
+    color: #333;
+}
+#head-logo{
+    width: 50px;
+    height: 50px;
+}
+header{
+    position: static;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(180, 180, 64);
+    border-bottom: 1px solid #f2f2f2;
+}
+p, tr{
+    font-weight: 400;
+}
+#menu{
+    margin-top: 15px;
+}
+#menu a{
+    margin-left: 30px;
+}
+a {
+    text-decoration: none;
+    justify-content: space-between;
+}
+#header-one{
+    font-size: 10px;
+    text-align: center;
+    align-content: space-between;
+    position: relative;
+}
+#header-email{
+    margin-right: 100px;
+}
+#header-phone{
+    margin-left: 400px; 
+}
+/* Intro Section */
+#intro{
+    display: flex;
+    justify-content: space-around;
+}
+.button{
+    background-color: #ff914d;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 50px;
+    color: #fff;
+    margin-top: 10px;
+    
+}
+
+#intro-one button:hover{
+    background-color: whitesmoke;
+    border:2px solid #ff914d;
+    transition: o.5s;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
+#intro-one{
+    margin-top: 20px;
+    margin-bottom: 20px;    
+    background-color: rgb(249, 249, 155);
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding-bottom: 20px;
+}
+#intro-one h1{
+    font-size: 50px;
+    font-weight: 300;
+    font-family: dancing script;
+    padding: 5px;
+    margin: 0;
+}
+#intro-one p, h3{
+    font-weight: 400;
+    margin: 0;   
+}
+#photo{
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    background-color: #ff914d;
+    margin-top: 10px;
+}
+hr{
+    width: 200px;
+    background-color:  #ff914d;
+    height: 1px;
+    border: none;
+}
+div form{    
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;                 
+}
+form input, textarea{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 10px;
+    width: 40%;
+    border: #cc6729 solid 1px;
+    border-radius: 5px;
+    color: black;
+    height: 40px;
+    text-align: center;            
+}
+div form span{
+    display: flex;
+    font-size: 16px;
+      
+}
+input[type=radio]{
+    margin: 0px 50px;
+    height: 30px;
+    width: 50px;
+    border: #cc6729 solid;
+}
+img{
+    width: 150px;
+    height: 150px;
+    align-items: center;
+}
+section{
+    width: auto;
+    text-align: justify;
+}
+section h3{
+    text-align: center;
+}
+
+section h2{
+    text-align: center;
+}
+#about-me{
+       margin: 20px 100px;
+}
+#recipes{
+    background-color: rgb(249, 249, 155);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px 30px; 
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+       
+}
+/*#tools-details{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px;*/
+
+#our-menu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px 30px; 
+    padding-top: 30px; 
+}
+#footer-form{
+    background-color: rgb(249, 249, 155);
+    padding-top: 20px;
+}
+#footer{
+    text-align: center;
+}
+
+.restaurant{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px 30px; 
+    padding-top: 30px;
+}
+
+.thefooter{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 60vh;
+    padding-top: 4rem;
+    padding-bottom: 0px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.infooter{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    
+}
+
+
+.copyrightname{
+    text-align: center;
+    color: #ff914d;
+}
+
+#myfoot{
+    margin-top: 10rem !important;
+    color: rgb(138, 2, 2);
+}
+
+
+
+

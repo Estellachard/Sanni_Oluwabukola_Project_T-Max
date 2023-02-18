@@ -1,0 +1,32 @@
+
+.navbar-brand img{
+    width: 100px;
+    height: 40px;
+    margin-left: 100px;
+}
+.login-icon{
+    color: white;
+    padding-left: 10px;
+}
+.dropdown-menu{
+    margin-left: 80%;
+    border: none;
+    color: red;
+}
+.dropdown-menu li a{
+    color: white;
+}
+dropdown-item:hover{
+    background-color: white;
+}
+@media (max-width: 579px){
+    .dropdown-menu{
+        margin-left: 65%;
+    }
+}
+nav{
+    background-color: white;
+}
+.drop{
+    color: white;
+}

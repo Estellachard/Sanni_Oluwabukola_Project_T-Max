@@ -1,0 +1,208 @@
+.display-5{
+    margin-top: 20%;
+}
+.btn{
+    color: #fff;
+    font-weight: bold;
+    background-color: #ff5b92;
+    padding: 5px 3px;
+    box-shadow: 0 1px #1E1D1E;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    
+}
+.btn:hover{
+    font-weight: bold;
+    color: #ffff;
+    background-color: #DA1C5C;
+    padding: 5px 3px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transform: translateY(-1px);
+    -webkit-transform: translateY(-1px);
+    -moz-transform: translateY(-1px);
+    -ms-transform: translateY(-1px);
+    -o-transform: translateY(-1px);
+    transition: all ease-out 0.3s;
+    transition-property: all;
+    -webkit-transition: all ease-out 0.3s;
+    -moz-transition: all ease-out 0.3s;
+    -ms-transition: all ease-out 0.3s;
+    -o-transition: all ease-out 0.3s;
+}
+
+
+.card-text{
+    color: #DA1C5C;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card-header{
+    height: 100vh;
+    background: none;
+    border: none;
+}
+
+
+.ads {
+    background-image: url("../images/ease.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    margin: 30px auto;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    margin-left: -30px;
+    margin-top: 100px;
+}
+.ads-1 h1 {
+    color: #DA1C5C;
+    font-weight: bolder;
+    font-size: 30px;
+} 
+.ads-1 p {
+    color: #1E1D1E;
+    font-weight: bolder;
+    font-family: poppins;
+} 
+.ads-1 {
+    position: absolute;
+    margin: 70px 0 0 80px;
+    font-family: poppins;
+} 
+.ads-1 a {
+    background-color: #b1003b;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: 10px 0px;
+    font-weight: 400;
+}
+
+.pcy {
+    font-family: poppins;
+    background: #fbfbfb;
+    border: 1px solid #dfe3ff;
+    box-shadow: 0 0 25px rgb(0 0 0 / 6%);
+    border-radius: 10px;
+    width: auto;
+    position: fixed;
+    padding: 10px 15px;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #000;
+    font-size: 1rem;
+    justify-content: space-between;
+   
+}
+.pcy p {
+    align-items: center;
+    padding: auto;
+    margin: auto;
+    white-space: nowrap;
+    font-size: 1rem;
+    line-height: 1.28;
+}
+.pcy span {
+    
+    color: #da1c5c;
+    font-size: .875rem;
+    padding: 8px 5px;
+}
+.ease-cta a {
+    text-decoration: none;
+}
+.ease-cta a {
+    color: #fff;
+    font-weight: bold;
+    background-color: #ff5b92;
+    padding: 7px 10px;
+    box-shadow: 0 1px #838083;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+    
+   
+}
+.ease-cta a:hover {
+    font-weight: bold;
+    color: #ffff;
+    background-color: #DA1C5C;
+    padding: 7px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transform: translateY(-1px);
+    -webkit-transform: translateY(-1px);
+    -moz-transform: translateY(-1px);
+    -ms-transform: translateY(-1px);
+    -o-transform: translateY(-1px);
+    transition: all ease-out 0.3s;
+    transition-property: all;
+    -webkit-transition: all ease-out 0.3s;
+    -moz-transition: all ease-out 0.3s;
+    -ms-transition: all ease-out 0.3s;
+    -o-transition: all ease-out 0.3s;
+}
+
+.s-3 h6 {
+    padding: 15px 50px;
+    font-weight: bolder;
+    color: #b1003b;
+    text-align: center;
+    font-size: 30px;
+}
+.s-3 ul li {
+    border-spacing: 10px 0;
+    list-style: none;
+    padding: 10px 0;
+    text-align: left;
+
+}
+.s-3 ul li a {
+    text-decoration: none;
+    color: #1E1D1E;
+    font-size: 20px;
+    font-family: poppins;
+}
+.s-3 ul li a:hover {
+    color: #DA1C5C;
+    font-size: 20px;
+    font-family: poppins;
+}
+.t-1 ul li {
+    align-items: center;
+}
+.s-3 ul {
+    padding-left: 50px;
+}
+
+.t-1 svg {
+    margin-right: 30px;
+    align-items: center;
+    width: 10px;
+    float: right;
+}
